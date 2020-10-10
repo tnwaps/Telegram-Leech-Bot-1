@@ -4,9 +4,9 @@
   "keywords": [
     "telegram"
   ],
-  "repository": "https://github.com/AbirHasan2005/Telegram-Leech-Bot",
+  "repository": "https://github.com/tnwaps/Telegram-Leech-Bot",
   "success_url": "https://t.me/discovery_mirror",
-  "website": "https://github.com/AbirHasan2005/Telegram-Leech-Bot",
+  "website": "https://github.com/tnwaps/Telegram-Leech-Bot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -85,6 +85,14 @@
     },
     "YTDL_COMMAND": {
       "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
+      "required": false
+    },
+	"SAVE_THUMBNAIL": {
+      "description": "Enter your custom ytdl command like savethumbanil@urgroupname and so on. Default is /savethumbanail.",
+      "required": false
+    },
+	"CLEAR_THUMBNAIL": {
+      "description": "Enter your custom ytdl command like clearthumbnail@urgroupname and so on. Default is /clearthumbnail.",
       "required": false
     },
     "PYTDL_COMMAND_G": {
